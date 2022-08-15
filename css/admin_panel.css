@@ -1,0 +1,109 @@
+
+
+body{
+      margin: 0;
+      padding: 0;
+}
+.wrap{
+  background-color: rgb(246, 251, 244);
+  width: 75%;
+  height: 100%;
+  margin-left: 12.5%;
+  /*border:solid;
+  border-radius: 10px;
+  border-color:rgb(223, 243, 215) ;*/
+}
+.top {
+ 
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+}
+
+
+.inside_header_img_logu, .inside_header_text{
+      display: inline-block;
+}
+.inside_header_img_logu{
+      margin-top: -5px;
+     
+}
+.inside_header_text{
+      border: none;
+      margin-left: 10px;
+      vertical-align: top; 
+      font-style:italic;
+      font-weight:bolder;
+      font-size:50px;
+      background: linear-gradient(to right,rgb(246, 251, 244)1%,  rgb(246, 251, 244) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;  
+      cursor: pointer;
+
+}
+.inside_header_text:hover{
+      opacity: .3;
+      transform: 2s;
+}
+
+.menu{
+      
+      padding-left: 100px;
+      padding-top: 5px;
+      padding-bottom: 10px;  
+      height: 55px;
+      background: linear-gradient(to right,rgb(75, 134, 115) 30%,   rgb(95, 208, 104)100%);
+}
+
+
+
+  .admin_button,.problem_button,.discuss_button, .contest_button{
+
+        display: inline-block;
+        margin-left: 30px;
+        background-color: transparent;
+        vertical-align: top;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        cursor: pointer;
+
+}
+
+.admin_button:hover,.problem_button:hover,.discuss_button:hover, .status_button:hover,.contest_button:hover{
+        opacity: .3;
+        transform: 2s;
+}
+
+
+.body_column {
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns:70% 30% 1fr 1fr;
+      height: 670px;
+
+}
+
+
+.footer{
+      display: grid;
+      grid-template-columns:50% 50% 1fr 1fr;
+      height: 80px;
+      font-size: 20px;
+       padding-top: 20px;
+       background: linear-gradient(to right,rgb(75, 134, 115) 30%,   rgb(95, 208, 104)100%);
+      }
+.footer_text{
+      margin-left: 100px;
+      display: block;
+
+}
+.server,.footer{
+      color:black;      
+}

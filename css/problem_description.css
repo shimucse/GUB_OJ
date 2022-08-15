@@ -1,0 +1,271 @@
+
+
+body{
+      margin: 0;
+      padding: 0;
+}
+.wrap{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  
+}
+.top {
+ 
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+}
+
+
+.inside_header_img_logu, .inside_header_text{
+      display: inline-block;
+}
+.inside_header_img_logu{
+      margin-top: -5px;
+     
+}
+.inside_header_text{
+      border: none;
+      margin-left: 10px;
+      vertical-align: top; 
+      font-style:italic;
+      font-weight:bolder;
+      font-size:50px;
+      background: linear-gradient(to right,rgb(246, 251, 244)1%,  rgb(246, 251, 244) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;  
+      cursor: pointer;
+
+}
+.inside_header_text:hover{
+      opacity: .3;
+      transform: 2s;
+}
+
+
+.menu{
+      
+      padding-left: 100px;
+      padding-top: 5px;
+      padding-bottom: 10px;  
+      height: 55px;
+      background: linear-gradient(to right,rgb(75, 134, 115) 30%,   rgb(95, 208, 104)100%);
+}
+
+
+
+  .admin_button,.problem_button,.discuss_button, .contest_button{
+
+        display: inline-block;
+        margin-left: 30px;
+        background-color: transparent;
+        vertical-align: top;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        cursor: pointer;
+
+}
+
+.admin_button:hover,.problem_button:hover,.discuss_button:hover, .status_button:hover,.contest_button:hover{
+        opacity: .3;
+        transform: 2s;
+}
+
+
+.body_column {
+      display: grid;
+      grid-template-columns:60% 40% 1fr 1fr;
+      height: 800px;
+
+
+
+}
+.left_column{
+      
+      height: 800px;
+      overflow: scroll;
+
+      margin-left: 30px;
+      border-right: 1px solid;
+      border-color: #f5e9e9;
+      box-shadow: 5px 1px 10px  -6px #888888;
+      
+
+}
+
+
+.problem_header{
+   margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.problem_id, .problem_name{
+    font-size: 20px;
+}
+.problem_id,.time_limit, .memory_limit, .input_txt, .output_txt{
+   display: block;
+   text-align: center;
+   font-size: 16px;
+}
+.problem_description{
+      font-size: 15px;
+}
+
+.input_output_table table{
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid;
+      font-size: 15px;
+      margin-top: 30px;
+      margin-bottom: 70px;
+      border-color: #f5e9e9;
+      border-right: none;
+      
+}
+
+
+.input_output_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.input_output_table tr:hover {background-color: #ddd;}
+
+
+ .input_output_table th, .input_output_table td {
+      padding: 8px;
+      border: 1px solid;
+      border-color: #f5e9e9;
+      border-right: none;
+
+
+    }
+    .input_output_table td {
+       border-bottom: none;
+       border-top: none;
+
+    }
+    
+    .input_output_table .total_test_case{
+       text-align: center;
+       border: 1px solid;
+       border-color: #f5e9e9;
+       border-right: none;
+
+    }
+    
+    
+    .input_output_table th {
+      width: 50%;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      border-right: none;
+
+    }
+    .right_column{
+
+      margin-left: 5%;
+  }
+.edit_top{
+
+      margin-bottom: 2%;   
+
+}
+.language_button {
+      width: 150px;
+          padding: 10px;
+          margin-top: 5%;
+          background-color: f2f2f2;
+          border: 1px solid ;
+          border-color: #f5e9e9;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+
+.edit_top:hover .dropdown-content {display: block;}
+
+.edit_top:hover .language_button {background-color:  #F6FBF4;}
+.editor_wrap{
+      display: grid;
+      grid-template-columns: 5% 95% 1fr 1fr;
+      height: 600px;
+}
+.index_number{
+      background-color: f2f2f2;
+      border: 1px solid ;
+      border-color: #f5e9e9;
+      text-align: center;
+      box-shadow: 15px 0 20px -20px #888888 inset;
+
+}
+.index_number span{
+      display: block;
+}
+.editor{
+      border: 1px solid ;
+      border-color: #f5e9e9;
+      background-color: white;
+      border-left: none;
+
+
+
+}
+.editor span{
+      display: block;
+      font-size: 14px;
+}
+.run_submit_button{
+      margin-top: 20px;
+      margin-bottom: 50px;
+      float: right;
+}
+.run_button, .submit_button{
+      width: 120px;
+      padding: 15px;
+      font-size: 15px;
+      border:none;
+}
+.run_button{
+      background-color: f2f2f2;
+}
+.submit_button{
+      margin-left: 50px;
+      background-color: rgb(75, 134, 115);
+}
+.footer{
+      display: grid;
+      grid-template-columns:50% 50% 1fr 1fr;
+      height: 80px;
+      font-size: 20px;
+       padding-top: 20px;
+       background: linear-gradient(to right,rgb(75, 134, 115) 30%,   rgb(95, 208, 104)100%);
+      }
+.footer_text{
+      margin-left: 100px;
+      display: block;
+
+}
+.server,.footer{
+      color:black;      
+}
