@@ -59,7 +59,7 @@ body{
 
 
 
-  .admin_button,.problem_button,.discuss_button, .contest_button,.profile_button, .logout_button{
+  .admin_button,.problem_button,.discuss_button, .contest_button,.login_button, .signup_button{
 
         display: inline-block;
         margin-left: 30px;
@@ -81,6 +81,14 @@ body{
         opacity: .3;
         transform: 2s;
 }
+.login_button,.signup_button{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0px;
+  }
+  .login_button{
+  margin-left: 30px;
+  }
 
 .second_menu{
   width: 100%;
